@@ -49,9 +49,6 @@ userInput.then(function(data){
     <header>
         <h1> Hey there! Welcome to my profile page that I built on my own! My name is ${data.name}</h1>
     </header>
-
-    <img src="">
-
     <main>
     <div class="grid-x grid-padding-x align-center-middle text-center" id="location">
     <p>I am from ${data.location}</p></div>
