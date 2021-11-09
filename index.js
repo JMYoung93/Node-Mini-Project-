@@ -35,15 +35,16 @@ var userInput = new Promise(function (resolve, reject) {
 userInput.then(function(data){
     const html = `
     <!DOCTYPE html>
-    <html lang="en">
+    <html class="no-js" lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>My New Profile!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
-    
+
     <body>
     <header>
         <h1> Hey there! Welcome to my profile page that I built on my own! My name is ${data.name}</h1>
@@ -66,7 +67,7 @@ userInput.then(function(data){
     </main>
 
     <footer></footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
     </body>
 
