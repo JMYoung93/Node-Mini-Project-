@@ -1,0 +1,22 @@
+html{
+    background-color:rgb(4, 81, 117);
+    background-position: 100% 100%;
+}
+
+*{
+    list-style: none;
+}
+
+h1{
+text-align: center;
+font-weight: bold;
+}
+
+p{
+    color:whitesmoke;
+}
+
+img{
+    box-sizing: border-box;
+    border-radius: 100px;
+}
