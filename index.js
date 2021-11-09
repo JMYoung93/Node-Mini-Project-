@@ -53,16 +53,16 @@ userInput.then(function(data){
     <img src="">
 
     <main>
-    <div class="profile" id="location">
+    <div class="grid-x grid-padding-x align-center-middle text-center" id="location">
     <p>I am from ${data.location}</p></div>
 
-    <div class="profile" id="bio">
+    <div class="grid-x grid-padding-x align-center-middle text-center" id="bio">
     <p>Something interesting about me is ${data.bio}</p></div>
 
-    <div class="profile" id="linkedin">
+    <div class="grid-x grid-padding-x align-center-middle text-center" id="linkedin">
     <p>If you want to contact me on LinkedIn visit me at: ${data.linkedin} </p></div>
 
-    <div class="profile" id="github">
+    <div class="grid-x grid-padding-x align-center-middle text-center" id="github">
     <p>To view some of my work, visit my repositories on GitHub:${data.github}</p></div>
     </main>
 

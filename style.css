@@ -1,6 +1,6 @@
 *{
     list-style: none;
-    background-color: rgb(84, 84, 224);
+    background-image: linear-gradient(to right, rgb(84, 84, 224) , grey);
 }
 
 h1{
